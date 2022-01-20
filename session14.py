@@ -21,11 +21,6 @@ def employment_itr():
             yield dta(row[0], row[1], row[2], row[3])
 
 
-# a =employment_itr()
-# print(next(a))
-# print(next(a))
-
-
 def personal_info_itr():
     with open("personal_info.csv", 'r') as f:
         csv_reader = csv.reader(f)
